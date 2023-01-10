@@ -1,5 +1,5 @@
 # dynamic_tasks_website
-This a dynamic website that supports adding new tasks for users, with the abillity to edit or delete them, you can also create a new user with the abillity to remember users using sessions, also the user can reset his password whenever he needed
+This a dynamic and Responsive website that supports adding new tasks for users, with the abillity to edit or delete them, you can also create a new user with the abillity to remember users using sessions, also the user can reset his password whenever he needed
 
 Frontend: html, javascript, css and bootstrap, 
 Backend: php, 
