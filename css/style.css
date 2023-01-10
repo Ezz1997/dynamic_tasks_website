@@ -1,0 +1,152 @@
+#signIn,
+#signUp,
+#resetPw {
+  text-align: center;
+}
+
+/* Full-width inputs */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form {
+  position: absolute;
+}
+
+img {
+  max-width: 100px;
+  max-height: 150px;
+}
+
+#homepageNav {
+  background-color: #388068;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #3698b6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+header,
+#logo,
+#tasks {
+  animation-name: logo;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+
+#tasks {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+}
+
+#homepageLogo {
+  animation-name: homepageLogo;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+
+@keyframes homepageLogo {
+  0% {
+    color: white;
+  }
+  25% {
+    color: darkslategray;
+  }
+  50% {
+    color: darkgreen;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@keyframes logo {
+  0% {
+    color: red;
+  }
+  25% {
+    color: rgb(255, 0, 128);
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+/*
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  } */
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  margin: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#taskContainer {
+  width: 100%;
+}
+
+#titleInput,
+#dateInput,
+#writerInput {
+  height: 35px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 99%;
+  text-align: left;
+  padding-top: 50px;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 500px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
